@@ -8,3 +8,17 @@ services:
     environment:
       SA_PASSWORD: 'admin01!!'
       ACCEPT_EULA: 'Y'
+    volumes:
+      - mssql_data:/var/opt/mssql/data
+
+  redisdb:
+    image: redis:5.0.1
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/var/opt/redis/data
+      
+
+volumes:
+  mssql_data:
+  redis_data:

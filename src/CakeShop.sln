@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeShop.PresentationLayer", "..\CakeShop.PresentationLayer\CakeShop.PresentationLayer.csproj", "{F9F67021-AC52-409D-9C42-4797C2A2D44C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeShop.Domain", "CakeShop.Domain\CakeShop.Domain.csproj", "{C99CC586-E3FF-4AA5-ADCD-B006BFEC1D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F9F67021-AC52-409D-9C42-4797C2A2D44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F67021-AC52-409D-9C42-4797C2A2D44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F67021-AC52-409D-9C42-4797C2A2D44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99CC586-E3FF-4AA5-ADCD-B006BFEC1D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99CC586-E3FF-4AA5-ADCD-B006BFEC1D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99CC586-E3FF-4AA5-ADCD-B006BFEC1D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99CC586-E3FF-4AA5-ADCD-B006BFEC1D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
